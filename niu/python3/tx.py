@@ -27,7 +27,7 @@ def yh(n):
 		yield li
 		li=[1]+[li[i] + li[i + 1] for i in range(len(li) - 1)]+[1]
 		index+=1
-
+#调用打印
 for x in yh(10):
 	print(x)
 	
